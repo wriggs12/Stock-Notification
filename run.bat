@@ -1,3 +1,3 @@
-cd "File Location"
+cd "File Location Here"
 
 python main.py

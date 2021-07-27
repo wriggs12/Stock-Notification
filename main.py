@@ -22,7 +22,7 @@ def main():
     message = "Verizon: $" + str(verizon) + "(" + verizonChange + "%)" + "\nJPM: $" + str(jpm) + "(" + jpmChange + "%)" + "\nAflac: $" + str(aflac) + "(" + aflacChange + "%)" + "\nAT&T: $" + str(att) + "(" + attChange + "%)" + "\nExxon: $" + str(exxon) + "(" + exxonChange + "%)" + "\nNorwegian: $" + str(norCruise) + "(" + norCruiseChange + "%)" + "\nTotal Value: $" + str(totalVal)
     
     #Send text message via email
-    bot.sendMessage(message, "botjohnny648@gmail.com", "msbqsxvtevmmaaem", "5166471969@sms.myboostmobile.com")
+    bot.sendMessage(message, "(email to send message from)", "(email access code)", "(input phone number)@(your cell carrier)")
 
 if __name__ == "__main__":
     main()
